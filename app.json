@@ -1,0 +1,12 @@
+{
+  "name": "ofline-first",
+  "displayName": "ofline-first",
+  "expo": {
+    "name": "ofline-first",
+    "slug": "ofline-first",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
