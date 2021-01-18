@@ -3,8 +3,8 @@ import { View, Text, TouchableOpacity } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import * as Actions from './redux/actions';
 import Input from './components/Inputs';
-import Picker from './components/picker';
-import ModalFilterPicker from 'react-native-modal-filter-picker';
+import ModalFilterPicker from './components/picker';
+//import ModalFilterPicker from 'react-native-modal-filter-picker';
 
 const options = [
 	{
