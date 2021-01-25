@@ -11,14 +11,9 @@ const styles = StyleSheet.create({
     marginTop: 4,
     borderRadius: 4,
   },
-  labelContainer: {
-    position: 'absolute',
-    top: 2,
-    left: 2,
-  },
+
   checkBoxShowContainer: {
     position: 'absolute',
-    bottom: 16,
     right: 0,
     zIndex: 100,
   },
@@ -34,8 +29,12 @@ const styles = StyleSheet.create({
   },
   checkBox: {
     margin: 0,
-    padding: 0,
     borderWidth: 0,
+    height: 48,
+    padding: 0,
+    paddingBottom: 7,
+
+    justifyContent: 'center',
   },
   checkBoxtext: {
     fontWeight: 'normal',
@@ -43,10 +42,10 @@ const styles = StyleSheet.create({
     paddingBottom: 0,
   },
   textInput: {
-    paddingBottom: 8,
     fontSize: 17,
-    marginLeft: 4,
     borderRadius: 4,
+    height: 48,
+    paddingLeft: 16,
   },
 });
 
@@ -60,9 +59,6 @@ const PasswordFiled = ({
   onBlur,
 }) => (
   <View style={styles.container}>
-    <View style={styles.labelContainer}>
-      <Text>{labelText}</Text>
-    </View>
     <View style={styles.checkBoxShowContainer}>
       <CheckBox
         checked={showPassword}

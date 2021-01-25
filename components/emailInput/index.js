@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
     padding: 8,
     borderColor: 'rgba(52,52,52,0.1)',
     borderWidth: 1,
+    paddingLeft: 16,
     fontSize: 16,
     elevation: 0,
     height: 48,
